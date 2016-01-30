@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  
+  android:background="@drawable/back"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:gravity="center_horizontal"
+        android:text="Please select what you wish to control :"
+        android:textColor="#555"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         >
+</TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ToggleButton
+            android:id="@+id/ToggleButton01"
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/toggleButton1"
+            android:layout_below="@+id/toggleButton1"
+            android:layout_marginTop="20dp"
+            android:text="ToggleButton"
+            android:textColor="#555"
+             />
+
+        <ToggleButton
+            android:id="@+id/ToggleButton02"
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ToggleButton01"
+            android:layout_below="@+id/ToggleButton01"
+            android:layout_marginTop="19dp"
+            android:text="ToggleButton"
+            android:textColor="#555"
+             />
+
+        <ToggleButton
+            android:id="@+id/ToggleButton03"
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ToggleButton02"
+            android:layout_below="@+id/ToggleButton02"
+            android:layout_marginTop="19dp"
+            android:text="ToggleButton"
+            android:textColor="#555"
+            />
+
+        <ToggleButton
+            android:id="@+id/ToggleButton04"
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ToggleButton03"
+            android:layout_below="@+id/ToggleButton03"
+            android:layout_marginTop="15dp"
+            android:text="ToggleButton"
+            android:textColor="#555"
+             />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/toggleButton1"
+            android:layout_marginLeft="15dp"
+            android:text="Light 1 :"
+            android:textColor="#555"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ToggleButton01"
+            android:layout_alignBottom="@+id/ToggleButton01"
+            android:layout_alignLeft="@+id/textView2"
+            android:text="Light 2 :"
+            android:textColor="#555"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView01"
+            android:layout_alignTop="@+id/ToggleButton02"
+            android:text="Light 3 :"
+            android:textColor="#555"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView02"
+            android:layout_alignTop="@+id/ToggleButton03"
+            android:text="Air Cond :"
+            android:textColor="#555"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ToggleButton04"
+            android:layout_alignBottom="@+id/ToggleButton04"
+            android:layout_alignLeft="@+id/TextView03"
+            android:text="Door Lock:"
+            android:textColor="#555"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="37dp"
+            android:layout_toRightOf="@+id/TextView04"
+            />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ToggleButton04"
+            android:layout_alignRight="@+id/ToggleButton04"
+            android:layout_below="@+id/ToggleButton04"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Bluetooth Name" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editText1"
+            android:layout_alignRight="@+id/TextView02"
+            android:text="OK" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/editText1"
+            android:text="DIYhacking.com"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#555" />
+
+    </RelativeLayout>
+    
+</LinearLayout>

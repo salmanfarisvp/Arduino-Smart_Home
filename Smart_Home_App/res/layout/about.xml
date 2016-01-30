@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    
+    <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="DIYhacking.com"
+            android:textColor="#555"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="31dp"
+            android:textColor="#555"
+            android:text="This DIY android application is created by Arvind Sanjeev. Using this app you would be able to control all the devices you have hooked up to your bluetooth controller, lamps, air conditioning, door locks, etc.Having a range of control of about 100m. Happy hacking!"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </RelativeLayout>
+
+</LinearLayout>
